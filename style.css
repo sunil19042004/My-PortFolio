@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    list-style: none;
+    right: 5px;
+    padding: 10px 20px;
+}
+li{
+    padding-right: 20px;
+    text-decoration: none;
+}
+.links{
+    text-decoration: none;
+    cursor: pointer;
+}
+#name{
+    font-size: 50px;
+    color:crimson;
+    padding-right: 500px;
+    padding-left: 0px;
+
+}
+.HEADER{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding-top: 55px;
+    margin-bottom: 10px;
+}
+img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 80px;
+    margin-top: 120px;
+}
+.mydetails{
+    float: right;
+    border: black solid 4px;
+    height: 400px;
+    width:1000px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+#About{
+    height: 600px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+#Skills{
+    text-align: center;
+    height:600px;
+    background-color: pink;
+    margin-bottom: 10px;
+}
+#skillscontainer{
+    font-size: 30px;
+    padding-top: 65px;
+}
+#title{
+    font-size: 50px;
+}
+#Certificates{
+    text-align: center;
+    height: 600px;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+}
+.left{
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.right{
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+#Hobbies{
+    text-align: center;
+    height: 600px;
+    background-color:gray;
+    margin-bottom: 10px;
+}
+#hobby{
+    text-align: center;
+    border: black solid 4px;
+    height: 500px;
+    width:1200px;
+    margin-left: 150px;
+    margin-top:20px;
+    color: white;
+}
+#Contact{
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(133, 32, 116);
+    height: 600px;
+    margin-bottom: 10px; 
+ }
+form{
+     font-size: 30px;
+     padding-top: 100px;
+ }
+input{
+     height: 40px;
+     font-size: 20px;
+ }
+#resume{
+    text-align: center;
+    background-color: brown;
+    height: 200px;
+    margin-bottom: 10px;
+}
+#moredetails{
+    font-size: 20px;
+    text-align: left;
+}
+#image{
+    height: 200px;
+    width: 200px;
+}
+#topic1{
+    transform: translate(-420px,100px);
+}
+#topic2{
+    transform: translate(-280px,80px);
+}
+#topic3{
+    transform: translate(-135px,60px);
+}
+#topic4{
+    transform: translate(0px,40px);
+}
+.i2{
+    transform: translate(0px,-20px);
+}
+.i3{
+   transform: translate(0px,-40px);
+}
+.i4{
+transform: translate(0px,-60px);
+}
